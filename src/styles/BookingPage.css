@@ -1,0 +1,26 @@
+
+
+.booking_page_components {
+    border: 2px solid rgb(95 97 110);
+    border-radius: 0.5em;
+    padding: 20px;
+    width: 10em;
+    background-color: lightgrey;
+}
+
+.booking_page {
+    border-radius: 0.5em;
+    font: 1.2em sans-serif;
+    height: 400px;
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-field > * {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+}
+

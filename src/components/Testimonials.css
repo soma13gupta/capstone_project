@@ -1,0 +1,41 @@
+.testimonials {
+    background-color: lightgrey;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.testimonials > h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.testimonials > section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials > section > article {
+    flex: 1;
+    background-color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+    padding: 10px 20px 10px 20px;
+    width: 150px;
+}
+
+.testimonials > section > article > .item-row {
+    display: flex;
+    justify-content: left;
+}
+
+
+.testimonials > section > article > .item-row > icon {
+    width: 20%;
+    height: 20%;
+}
+
+.testimonials > section > article > .item-row > .customer-name {
+    margin-right: 20px;
+}

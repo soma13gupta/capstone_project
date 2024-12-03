@@ -1,0 +1,41 @@
+.about-section{
+    height: 20%;
+}
+
+.about-section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    height: 300px;
+}
+
+.about-section-content > article {
+    flex: 1;
+    height:100%;
+    width:50%;
+    margin: 0;
+    align-items: start;
+    padding: 50px 0 50px 0;
+}
+
+.about-section-content > article > h1 {
+    color: black;
+}
+.about-section-content > article > h2 {
+    color: black;
+    margin-top: 20px;
+}
+.about-section-content > article > h3 {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.about-section-content > img {
+    height: 100%;
+    width: 50%;
+    margin: 30px;
+    border-radius: 10px;
+}
