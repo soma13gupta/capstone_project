@@ -11,9 +11,7 @@
 .booking_page {
     border-radius: 0.5em;
     font: 1.2em sans-serif;
-    height: 400px;
     display: flex;
-    margin-top: 200px;
     align-items: center;
     justify-content: center;
 }
@@ -22,5 +20,11 @@
     display: flex;
     flex-direction: column;
     padding: 10px 0 10px 0;
+}
+
+.submit-button{
+    margin-top:50px;
+    width: 100px;
+    height:30px;
 }
 

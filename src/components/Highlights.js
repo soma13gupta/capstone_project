@@ -1,15 +1,22 @@
 import greeksalad from "../images/greeksalad.jpg";
 import brushetta from "../images/brushetta.jpg";
-import './Highlights.css';
+import '../styles/Highlights.css';
 import React from "react";
+import {useNavigate} from "react-router-dom";
 
 
 export default function Highlights(){
+
+    const navigate = useNavigate();
+    const onlineMenuSection = () => {
+        navigate('/onlineMenu');
+    }
+
     return <div className="highlights-section">
 
         <div className="section-row">
-            <h1> Highlights</h1>
-            <button className="online-menu" onClick={() => alert("Online Menu")}>Online Menu</button>
+            <h1> Specials</h1>
+            <button className="online-menu" onClick={onlineMenuSection}>Online Menu</button>
         </div>
 
         <section>

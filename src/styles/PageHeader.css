@@ -1,9 +1,16 @@
+
 .navbar {
     display: flex;
-    justifyContent: 'space-evenly';
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
 }
+
+.menuoptions{
+    align-content: end;
+    margin-left: 10px;
+}
+
 
 ul {
     list-style-type: none;

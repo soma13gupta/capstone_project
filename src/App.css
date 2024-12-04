@@ -1,11 +1,7 @@
-.App {
+.app {
   text-align: center;
-  margin: 50px 0px 50px 0px;
 }
 
-
-section {
-  display: flex;
+.home-page {
+    width: 100%;
 }
-
-

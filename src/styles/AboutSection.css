@@ -1,5 +1,7 @@
 .about-section{
     height: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .about-section-content{
@@ -37,5 +39,4 @@
     height: 100%;
     width: 50%;
     margin: 30px;
-    border-radius: 10px;
 }

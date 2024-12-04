@@ -1,7 +1,7 @@
 import greeksalad from "../images/greeksalad.jpg";
 import imgIconTitle from "../images/imgIconTitle.png";
 import React from "react";
-import './Testimonials.css';
+import '../styles/Testimonials.css';
 
 export default function Testimonials() {
     return (

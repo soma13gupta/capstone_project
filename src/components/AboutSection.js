@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutSection.css";
+import "../styles/AboutSection.css";
 import heroSection from "../images/heroSection.jpg";
 
 export default  function AboutSection() {
